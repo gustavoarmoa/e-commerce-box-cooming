@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Estamos criando uma nova experiencia para instituições de ensino{' '}
+          Estamos criando uma nova experiência para instituições de ensino{' '}
           <code className={styles.code}>status: Desenvolvimento</code>
         </p>
 
