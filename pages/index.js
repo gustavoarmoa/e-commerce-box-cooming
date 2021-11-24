@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Wady EduTech</title>
-        <meta name="description" content="Wady EduTech - criando uma nova experiencia para instituições de ensino eautomatizando sua IES" />
+        <meta name="description" content="Wady EduTech - criando uma nova experiencia em gestão de matrículas para sua instituição de ensino" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -30,7 +30,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {' '}  <span className={styles.logo}>Powered by Boxsales comercio e serviços Ltda.</span>
+          {' '}  <span className={styles.logo}>Powered by Boxsales Comercio & Serviços Ltda.</span>
         </a>
       </footer>
     </div>

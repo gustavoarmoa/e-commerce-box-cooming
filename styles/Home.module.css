@@ -30,6 +30,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  color: #eaeaea;
 }
 
 .title a {
@@ -64,6 +65,7 @@
 .wadystatus {
   padding-top: 3rem;
 }
+
 .code {
   background: #fafafa;
   color:black;
