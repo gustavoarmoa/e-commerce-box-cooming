@@ -1,24 +1,24 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Wady Educacional</title>
-        <meta name="description" content="Wady Educacional - criando uma nova experiencia para instituições de ensino eautomatizando sua IES" />
+        <title>Wady EduTech</title>
+        <meta name="description" content="Wady EduTech - criando uma nova experiencia para instituições de ensino eautomatizando sua IES" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Wady <a href="#">Educacional</a>
+          Wady <a href="#">EduTech</a>
         </h1>
 
         <p className={styles.description}>
-          Estamos criando uma nova experiência para instituições de ensino{' '}
-          <code className={styles.code}>status: Desenvolvimento</code>
+          Criando uma nova experiência em gestão de matrículas para o EAD{' '}
+          <div className={styles.wadystatus}><code className={styles.code}>Status do site: Desenvolvimento</code></div>
+          
         </p>
 
         
