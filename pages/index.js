@@ -5,18 +5,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Wady EduTech</title>
+        <title>Loquimar</title>
         <meta name="description" content="Wady EduTech - criando uma nova experiencia em gestão de matrículas para sua instituição de ensino" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Wady <a href="#">EduTech</a>
+          Loquimar, <a href="#">aluguel de maquinas</a>
         </h1>
 
         <p className={styles.description}>
-          Criando uma nova experiência em gestão de matrículas para o EAD{' '}
+          Criando uma nova experiência em alugueis de máquinas{' '}
           <div className={styles.wadystatus}><code className={styles.code}>Status do site: Desenvolvimento</code></div>
           
         </p>
@@ -26,11 +26,10 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
+          href="#"
           rel="noopener noreferrer"
         >
-          {' '}  <span className={styles.logo}>Powered by Boxsales Comercio & Serviços Ltda.</span>
+          {' '}  <span className={styles.logo}>Powered by Loquimar Ltda.</span>
         </a>
       </footer>
     </div>
