@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Boxsales | E-commerce</title>
         <meta name="description" content="Comprar online não precisa ser complicado" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="svg" href="/bear.svg" />
       </Head>
 
       <main className={styles.main}>
