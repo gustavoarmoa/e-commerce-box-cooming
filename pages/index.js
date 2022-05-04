@@ -5,19 +5,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Loquimar</title>
-        <meta name="description" content="Wady EduTech - criando uma nova experiencia em gestão de matrículas para sua instituição de ensino" />
+        <title>Boxsales | E-commerce</title>
+        <meta name="description" content="Comprar online não precisa ser complicado" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Loquimar, <a href="#">aluguel de maquinas</a>
+          Boxsales E-commerce, <a href="#"><br></br>Simplicando suas<br></br> compras no online</a>
         </h1>
 
         <p className={styles.description}>
-          Criando uma nova experiência em alugueis de máquinas{' '}
-          <div className={styles.wadystatus}><code className={styles.code}>Status do site: Desenvolvimento</code></div>
+          Criando uma nova experiência em e-commerce {' '}
+          <div className={styles.wadystatus}><code className={styles.code}>Status do e-commerce: Desenvolvimento</code></div>
           
         </p>
 
@@ -29,7 +29,7 @@ export default function Home() {
           href="#"
           rel="noopener noreferrer"
         >
-          {' '}  <span className={styles.logo}>Powered by Loquimar Ltda.</span>
+          {' '}  <span className={styles.logo}>Powered by Boxsales comercio & serviços Ltda.</span>
         </a>
       </footer>
     </div>
